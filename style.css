@@ -39,7 +39,7 @@ body {
   width: 100%;
   background-color: #000;
   position: fixed;
-  /* z-index: 99; */
+  z-index: 99;
   color: #fff;
   display: flex;
   align-items: center;
