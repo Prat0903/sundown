@@ -994,7 +994,7 @@ nav {
   }
 
   #page4 #left p {
-    width: 116%;
+    width: 106%;
     font-size: 3vw;
     margin-top: 4vw;
   }
@@ -1013,27 +1013,27 @@ nav {
     background-color: #efeae3;
     padding: 3vw 4vw;
   }
-  
+
   #page5 #intro {
     width: 50vw;
     gap: 1vw;
     margin-top: -4vw;
   }
-  
+
   #intro h4 {
     font-weight: 200;
   }
-  
+
   #page5 #reddot {
     height: 2vw;
     width: 2vw;
   }
-  
+
   .swiper {
     height: 60%;
     margin-top: 18vw;
   }
-  
+
   .swiper-slide {
     text-align: center;
     border-left: 1px solid #bcbcbb;
@@ -1043,7 +1043,7 @@ nav {
   .swiper-slide img {
     margin-left: 10%;
   }
-  
+
   .swiper-slide p {
     margin-top: 1.5vw;
     font-size: 4vw;
