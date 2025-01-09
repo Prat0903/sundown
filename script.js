@@ -55,11 +55,14 @@ function loaderAnimation() {
 function swiperAnimation() {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 4,
+        loop: true,
         centeredSlides: false,
         spaceBetween: 50,
         grabCursor: true,
     });
 }
+
+
 
 function menuAnimation() {
     var menuicon = document.querySelector('#menu i');
