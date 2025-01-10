@@ -3,6 +3,16 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+function viewportScroll() {
+    function setVH() {
+        document.documentElement.style.setProperty('--vh', `${window.innerHeight * 0.01}px`);
+    }
+
+    document.addEventListener('DOMContentLoaded', setVH);
+    window.addEventListener('resize', setVH);
+}
+
+
 function hoverAnimation() {
     const elems = document.querySelectorAll('.elem');
     const fixed = document.querySelector('#fixed-image');
@@ -132,6 +142,7 @@ function toggle() {
     })
 }
 
+viewportScroll();
 hoverAnimation();
 loaderAnimation();
 swiperAnimation();

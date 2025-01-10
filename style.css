@@ -36,7 +36,7 @@ body {
 }
 
 #loader {
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100%;
   background-color: #000;
   position: fixed;
@@ -931,7 +931,7 @@ nav {
 }
 
 #full-scr {
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100%;
   background-color: #00000070;
   position: fixed;
